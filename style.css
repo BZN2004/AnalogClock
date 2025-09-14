@@ -1,3 +1,110 @@
-body{
-    font
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ClockDial {
+    width: 550px;
+    height: 550px;
+    border: 20px double black;
+    border-radius: 50%;
+    margin: 0px;
+    position: relative;
+    padding: 0;
+}
+
+.Point {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 260px;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.ClockCover {
+    width: 440px;
+    height: 440px;
+    background-color: rgba(210, 180, 140,0.3);
+    position: absolute;
+    border: 0px solid ;
+    border-radius: 50%;
+    top: 50px;
+   right: 50px;
+}
+
+.Hours {
+    font-family: 'Catenbury';
+    position: absolute;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+
+}
+
+#HourOne {
+    top: 10%;
+    left: 75%;
+}
+
+#HourTwo {
+    top: 25%;
+    left: 89%;
+}
+
+#HourThree {
+    top: 45%;
+    left: 92%;
+}
+
+#HourFour {
+    top: 65%;
+    left: 85%;
+}
+
+#HourFive {
+    top: 80%;
+    left: 75%;
+}
+
+#HourSix {
+    left: 50%;
+    top: 90%;
+}
+
+#HourSeven {
+    bottom: 10%;
+    right: 70%;
+}
+
+#HourEight {
+    bottom: 25%;
+    left: 10%
+}
+
+#HourNine {
+    top: 46%;
+    left: 3%;
+}
+
+#HourTen {
+    bottom: 65%;
+    left: 7%;
+}
+
+#HourEleven {
+    top: 10%;
+    right: 75%;
+}
+
+#HourTwelve {
+    left: 50%;
+    top: 1%;
+}
+
+@font-face {
+    font-family: 'Catenbury';
+    src: url(Assets/Fonts/Canterbury.ttf);
 }

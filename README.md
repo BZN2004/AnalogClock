@@ -39,3 +39,10 @@ This project is a fun analog clock web app inspired by the DC Comics character [
 
 This project is for educational and personal use only.  
 
+## Comments
+
+- I made this in 5 hrs the biggest issue was getting the points of time and hands to actually make sense all in all it took a littile trial and error and some maths(its good enough). 
+
+- The Clock on the left does not function not because it does not work but because its just the doom clock nothing more.
+
+- Next up I'll be making a daily journal (I'm thinking a Death note vibe ).

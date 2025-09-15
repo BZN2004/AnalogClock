@@ -11,7 +11,8 @@ This project is a fun analog clock web app inspired by the DC Comics character [
 
 ## Screenshot
 
-<img width="1911" height="968" alt="image" src="https://github.com/user-attachments/assets/ebbe9a74-c925-4219-a477-eff680608300" />
+<img width="1914" height="899" alt="image" src="https://github.com/user-attachments/assets/c2058849-a675-4c63-a458-c73d6ec64c94" />
+
 
 
 ## How It Works

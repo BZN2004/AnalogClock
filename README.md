@@ -18,7 +18,7 @@ This project is a fun analog clock web app inspired by the DC Comics character [
 
 - The clock faces are drawn using HTML and styled with CSS.
 - JavaScript (`logic.js`) updates the rotation of the clock hands every second.
-- The background image is from the Clock King character ([source](https://dcau.fandom.com/wiki/Clock_King)).
+- The background image is of the night sky([source](https://geographical.co.uk/science-environment/tips-and-tricks-for-astrophotography)).
 
 ## Setup
 
@@ -27,15 +27,15 @@ This project is a fun analog clock web app inspired by the DC Comics character [
    - `Index.html`
    - `style.css`
    - `logic.js`
-   - Background image at `Assets/image/Clock_King.webp`
+   - Background image at `Assets/image/Night-sky-photography.jpg`
    - (Optional) Custom font at `Assets/Fonts/Canterbury.ttf`
 3. Open `Index.html` in your browser.
 
 ## Credits
 
-- Clock King character and image © DC Comics ([source](https://dcau.fandom.com/wiki/Clock_King))
+- Image  ([source](https://geographical.co.uk/science-environment/tips-and-tricks-for-astrophotography))
 - Clock design and code by BZN 2004.
 ## License
 
 This project is for educational and personal use only.  
-All character images and likenesses are property of DC Comics.
+

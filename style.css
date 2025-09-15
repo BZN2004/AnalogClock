@@ -29,12 +29,12 @@ body {
   font-family: 'catenbury';
   padding: 60px;
   display: flex;
-  margin-left: 480px;
-  margin-top: 210px;
+  margin-left: 40px;
+  margin-top: 10px;
   gap: 40px;
-  background-image: url('Assets/image/Clock_King.webp');
+  background-image: url('Assets/image/Night-sky-photography.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:1540px 750px;
 }
 
 .ClockDial {

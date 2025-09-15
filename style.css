@@ -1,110 +1,168 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: 'catenbury';
+  padding: 150px;
 }
 
-.ClockDial {
-    width: 550px;
-    height: 550px;
-    border: 20px double black;
-    border-radius: 50%;
-    margin: 0px;
-    position: relative;
-    padding: 0;
+.ClockDial{
+  width: 500px;
+  height: 500px;
+  border: 20px double #563727;
+  background-color: rgba(222, 158, 72, 0.4);
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 5px 5px 10px grey;
 }
 
 .Point {
-    width: 30px;
-    height: 30px;
-    background-color: black;
-    border-radius: 50%;
-    position: absolute;
-    top: 260px;
-    left: 50%;
-    margin: 0;
-    padding: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #563727;
+  border-radius: 50%;
+  position: absolute;
+  top: 240px;
+  left: 240px;
 }
 
-.ClockCover {
-    width: 440px;
-    height: 440px;
-    background-color: rgba(210, 180, 140,0.3);
-    position: absolute;
-    border: 0px solid ;
-    border-radius: 50%;
-    top: 50px;
-   right: 50px;
+.Hour {
+  font-size: 30px;
+  font-weight: bold;
+  color: #372c2e;
+  position: absolute;
 }
 
-.Hours {
-    font-family: 'Catenbury';
-    position: absolute;
-    font-size: 40px;
-    padding: 0;
-    margin: 0;
-
+.HourOne {
+  top: 40px;
+  right: 130px;
+}
+.HourTwo {
+  top: 125px;
+  right: 45px;
+}
+.HourThree {
+  top: 235px;
+  right: 10px;
+}
+.HourFour {
+  top: 345px;
+  right: 45px;
+}
+.HourFive {
+  top: 430px;
+  right: 130px;
+}
+.HourSix {
+  bottom: 10px;
+  left: 240px;
+}
+.HourSeven {
+  top: 430px;
+  left: 130px;
+}
+.HourEight {
+  top: 345px;
+  left: 45px;
+}
+.HourNine {
+  top: 235px;
+  left: 10px;
+}
+.HourTen {
+  top: 125px;
+  left: 45px;
+}
+.HourEleven {
+  top: 40px;
+  left: 130px;
+}
+.HourTwelve{
+  top: 10px;
+  left: 235px;
 }
 
-#HourOne {
-    top: 10%;
-    left: 75%;
+
+
+.MinuteHandWrapper {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border-radius: 50%;
 }
 
-#HourTwo {
-    top: 25%;
-    left: 89%;
+.MinuteHand {
+  position: relative;
 }
 
-#HourThree {
-    top: 45%;
-    left: 92%;
+.MinuteHand .Hand {
+  width: 4px;
+  height: 200px;
+  background-color: #563727;
+  position: absolute;
+  left: 198px;
 }
 
-#HourFour {
-    top: 65%;
-    left: 85%;
+.MinuteHand .Arrow {
+  font-size: 30px;
+  font-weight: bold;
+  color: #563727;
+  transform: rotate(180deg);
+  position: absolute;
+  left: 190px;
+  top: -7px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#HourFive {
-    top: 80%;
-    left: 75%;
+.HourHandWrapper {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  border-radius: 50%;
 }
 
-#HourSix {
-    left: 50%;
-    top: 90%;
+.HourHand {
+  position: relative;
 }
 
-#HourSeven {
-    bottom: 10%;
-    right: 70%;
+.HourHand .Hand {
+  width: 4px;
+  height: 150px;
+  background-color: #563727;
+  position: absolute;
+  left: 148px;
 }
 
-#HourEight {
-    bottom: 25%;
-    left: 10%
+.HourHand .Arrow {
+  font-size: 30px;
+  font-weight: bold;
+  color: #563727;
+  transform: rotate(180deg);
+  position: absolute;
+  left: 140px;
+  top: -7px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#HourNine {
-    top: 46%;
-    left: 3%;
+.SecondHandWrapper {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  border-radius: 50%;
 }
 
-#HourTen {
-    bottom: 65%;
-    left: 7%;
+.SecondHand {
+  position: relative;
 }
 
-#HourEleven {
-    top: 10%;
-    right: 75%;
-}
-
-#HourTwelve {
-    left: 50%;
-    top: 1%;
-}
-
-@font-face {
-    font-family: 'Catenbury';
-    src: url(Assets/Fonts/Canterbury.ttf);
+.SecondHand .Hand {
+  width: 2px;
+  height: 175px;
+  background-color: #aa7228;
+  position: absolute;
+  left: 174px;
 }

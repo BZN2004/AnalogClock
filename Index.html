@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analog Clcok</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analog Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="ClockDial">
-        <div class="Point"></div>
-     <!--   <div class="HoueHand"></div>--> 
-        <div class="Hours" id="HourOne">1</div>
-        <div class="Hours" id="HourTwo">2</div>
-        <div class="Hours" id="HourThree">3</div>
-        <div class="Hours" id="HourFour">4</div>
-        <div class="Hours" id="HourFive">5</div>
-        <div class="Hours" id="HourSix">6</div>
-        <div class="Hours" id="HourSeven">7</div>
-        <div class="Hours" id="HourEight">8</div>
-        <div class="Hours" id="HourNine">9</div>
-        <div class="Hours" id="HourTen">10</div>
-        <div class="Hours" id="HourEleven">11</div>
-        <div class="Hours" id="HourTwelve">12</div>
-      
-         <div class="ClockCover">
-            <div class="MinuteArrow"></div>
-            <div class="Hand"></div>
-         </div>
+      <div class="Point"></div>
+      <div class="Hour HourOne">1</div>
+      <div class="Hour HourTwo">2</div>
+      <div class="Hour HourThree">3</div>
+      <div class="Hour HourFour">4</div>
+      <div class="Hour HourFive">5</div>
+      <div class="Hour HourSix">6</div>
+      <div class="Hour HourSeven">7</div>
+      <div class="Hour HourEight">8</div>
+      <div class="Hour HourNine">9</div>
+      <div class="Hour HourTen">10</div>
+      <div class="Hour HourEleven">11</div>
+      <div class="Hour HourTwelve">12</div>
+     
+
+      <div class="MinuteHandWrapper" id="MinuteHand">
+        <div class="MinuteHand">
+          <div class="Hand"></div>
+          <div class="Arrow">V</div>
+        </div>
+      </div>
+
+      <div class="HourHandWrapper" id="HourHand">
+        <div class="HourHand">
+          <div class="Hand"></div>
+          <div class="Arrow">V</div>
+        </div>
+      </div>
+
+      <div class="SecondHandWrapper" id="SecondHand">
+        <div class="SecondHand">
+          <div class="Hand"></div>
+        </div>
+      </div>
     </div>
-   
-</body>
+    <script src="logic.js"></script>
+  </body>
 </html>

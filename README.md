@@ -10,8 +10,8 @@ This project is a fun analog clock web app inspired by the DC Comics character [
 - Custom fonts and colors for a classic look
 
 ## Screenshot
+<img width="1907" height="964" alt="image" src="https://github.com/user-attachments/assets/711ab182-6a2b-45db-b1a8-c576e758eb41" />
 
-<img width="1914" height="899" alt="image" src="https://github.com/user-attachments/assets/c2058849-a675-4c63-a458-c73d6ec64c94" />
 
 
 ## How It Works
